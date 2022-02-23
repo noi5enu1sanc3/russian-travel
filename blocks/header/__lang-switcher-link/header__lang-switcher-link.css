@@ -7,6 +7,3 @@
   transition: opacity ease-in-out .8s;
 }
 
-.header__lang-switcher-link:hover {
-  opacity: .8;
-}
