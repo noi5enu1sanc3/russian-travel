@@ -4,4 +4,9 @@
   font-size: 24px;
   line-height: 1.17;
   font-weight: normal;
+  transition: opacity ease-in-out .8s;
+}
+
+.header__lang-switcher-link:hover {
+  opacity: .8;
 }
