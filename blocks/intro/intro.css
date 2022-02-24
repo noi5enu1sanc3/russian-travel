@@ -1,4 +1,5 @@
 .intro {
-  width: 77%;
+  min-width: 77%;
+  max-width: 93%;
   margin-bottom: 92px;
 }

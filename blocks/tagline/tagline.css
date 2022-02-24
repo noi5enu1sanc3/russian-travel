@@ -1,6 +1,7 @@
 .tagline {
   padding-top: 56px;
-  width: 77%;
+  min-width: 77%;
+  max-width: 93%;
   margin: 0;
   margin-bottom: 92px;
   display: flex;

@@ -1,0 +1,11 @@
+.cards__paragraph {
+  margin: 0;
+  margin-bottom: 26px;
+  font-size: 18px;
+  line-height: 1.63;
+  grid-column: 2;
+}
+
+.cards__paragraph:last-of-type {
+  margin-bottom: 0;
+}
