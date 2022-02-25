@@ -7,3 +7,11 @@
   align-items: center;
   gap: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
+}

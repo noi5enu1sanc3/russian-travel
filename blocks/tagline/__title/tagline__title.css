@@ -7,3 +7,12 @@
   font-weight: 900;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .tagline__title {
+    margin-bottom: 16px;
+    max-width: 90%;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

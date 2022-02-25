@@ -4,5 +4,12 @@
   font-weight: normal;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+  .header__lang-switcher-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
   
 
