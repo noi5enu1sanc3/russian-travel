@@ -2,6 +2,26 @@
   padding-top: 56px;
   padding-bottom: 92px;
   display: flex;
+  gap: 92px;
   flex-direction: column;
-  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    padding-bottom: 88px;
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    padding-bottom: 64px;
+    gap: 64px;
+  }
 }

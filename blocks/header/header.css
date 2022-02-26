@@ -1,7 +1,25 @@
 .header {
-  width: 93%;
+  margin-left: 48px;
+  margin-right: 48px;
+  width: calc(100% - 96px);
   height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: calc(100% - 32px);
+  }
 }
