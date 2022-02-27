@@ -1,9 +1,13 @@
 .link {
   text-decoration: none;
   color: #fff;
-  transition: opacity ease-in-out .8s;
 }
 
-.link:hover {
-  opacity: .8;
+@media screen and (min-width: 769px) {
+  .link {
+    transition: opacity ease-in-out .8s;
+  }
+  .link:hover {
+    opacity: .8;
+  }
 }

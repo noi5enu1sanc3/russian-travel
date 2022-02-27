@@ -2,3 +2,9 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-height: 575.98px) and (orientation: landscape) {
+  .cards__image {
+    max-height: 85vh;
+  }
+}

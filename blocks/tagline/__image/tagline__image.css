@@ -2,3 +2,9 @@
   margin-bottom: 8px;
   width: 100%;
 }
+
+@media screen and (max-height: 575.98px) and (orientation: landscape) {
+  .tagline__image {
+    max-height: 85vh;
+  }
+}
