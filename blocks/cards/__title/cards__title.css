@@ -1,5 +1,6 @@
 .cards__title {
   margin: 0;
+  max-width: 460px;
   font-size: 72px;
   line-height: 1.06;
   font-weight: 900;
@@ -7,13 +8,21 @@
 
 @media screen and (max-width: 1200px) {
   .cards__title {
+    max-width: 440px;
     font-size: 42px;
     line-height: 1.1;
   }
 }
 
+@media screen and (max-width: 900px) {
+  .cards__title {
+    max-width: 330px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .cards__title {
+    max-width: 100%;
     margin-left: 16px;
   }
 }
