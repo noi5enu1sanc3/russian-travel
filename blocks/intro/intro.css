@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 1200px) {
   .intro {
+    margin-left: 48px;
     margin-right: 286px;
   }
 }
