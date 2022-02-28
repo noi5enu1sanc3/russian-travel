@@ -8,4 +8,4 @@
 * Именование классов по БЭМ, файловая структура Nested БЭМ
 
 
-[Посмотреть проект](https://noisenuisance.github.io/russian-travel/index.html)
+[Посмотреть проект](https://noi5enu1sanc3.github.io/russian-travel/index.html)
