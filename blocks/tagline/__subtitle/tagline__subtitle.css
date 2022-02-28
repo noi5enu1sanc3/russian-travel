@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .tagline__subtitle {
     margin-bottom: 32px;
     max-width: 450px;
